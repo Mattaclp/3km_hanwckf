@@ -1,5 +1,10 @@
 sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
 
+git clone https://github.com/xiaorouji/openwrt-passwall.git
+cp -r openwrt-passwall/luci-app-passwall package/
+git clone https://github.com/xiaorouji/openwrt-passwall-packages.git
+cp -r openwrt-passwall-packages package/
+
 rm -rf feeds/luci/applications/luci-app-passwall
 rm -rf feeds/luci/applications/luci-app-openclash
 rm -rf feeds/packages/net/chinadns-ng
