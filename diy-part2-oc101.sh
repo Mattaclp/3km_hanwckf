@@ -10,6 +10,9 @@ cp -r openwrt-passwall-packages package/
 git clone https://github.com/Mattaclp/luci-app-openclash.git
 cp -r luci-app-openclash package/
 
+git clone https://github.com/fw876/helloworld.git
+cp -r helloworld package/
+
 rm -rf feeds/luci/applications/luci-app-passwall
 rm -rf feeds/luci/applications/luci-app-openclash
 rm -rf feeds/packages/net/chinadns-ng
