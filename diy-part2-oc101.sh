@@ -14,6 +14,15 @@ rm -rf feeds/luci/applications/luci-app-passwall
 rm -rf feeds/luci/applications/luci-app-openclash
 rm -rf feeds/packages/net/chinadns-ng
 rm -rf feeds/packages/net/dns2socks
+rm -rf feeds/packages/net/dns2tcp
+rm -rf feeds/packages/net/dnsproxy
+rm -rf feeds/packages/lang/lua-neturl
+rm -rf feeds/luci/applications/luci-app-ssr-plus
+rm -rf feeds/packages/net/mosdns
+rm -rf feeds/packages/net/redsocks2
+rm -rf feeds/packages/net/trojan
+rm -rf feeds/packages/net/v2ray-core
+rm -rf feeds/packages/net/v2raya
 rm -rf feeds/packages/net/ipt2socks
 rm -rf feeds/packages/net/microsocks
 rm -rf feeds/packages/net/naiveproxy
