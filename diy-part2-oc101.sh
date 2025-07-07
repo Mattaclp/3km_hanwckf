@@ -15,6 +15,7 @@ cp -r helloworld package/
 git clone https://github.com/coolsnowwolf/packages.git
 cp -r packages/lang/rust feeds/packages/lang/
 rm -rf packages
+cp -r feeds/packages/lang/rust package/
 
 rm -rf feeds/luci/applications/luci-app-passwall
 rm -rf feeds/luci/applications/luci-app-openclash
