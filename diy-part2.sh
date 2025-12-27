@@ -6,6 +6,9 @@ git clone https://github.com/sbwml/packages_lang_golang -b 25.x feeds/packages/l
 git clone https://github.com/xiaorouji/openwrt-passwall.git
 cp -r openwrt-passwall/luci-app-passwall package/
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git
+git clone https://github.com/Mattaclp/microsocks.git
+rm -rf openwrt-passwall-packages/microsocks
+cp -r microsocks openwrt-passwall-packages/
 cp -r openwrt-passwall-packages package/
 
 rm -rf feeds/luci/applications/luci-app-passwall
