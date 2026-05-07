@@ -1,3 +1,8 @@
+rm -rf feeds/luci/applications/luci-app-uugamebooster
+rm -rf feeds/packages/net/uugamebooster
+cp -r openwrt-packages/luci/applications/luci-app-uugamebooster package/
+cp -r openwrt-packages/packages/net/uugamebooster package/
+
 sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
 
 rm -rf feeds/packages/lang/golang
