@@ -21,18 +21,18 @@ on:
       - '.config'
   schedule:
     - cron: 30 20 * * *
-#  watch:
-#    types: started
+  watch:
+    types: started
 #  schedule:
 #    - cron: 0 16 * * *
 
 env:
   ###############手动修改##############
   OPENWRT_NAME: immortal
-  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
+  REPO_URL: https://github.com/yangxu52/immortalwrt-mt798x
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: 3km.config
+  CONFIG_FILE: yangxu52_Q30.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
